@@ -1,0 +1,90 @@
+/*Cabeçalho*/
+body {
+    background-color: black;
+}
+header, li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    text-align: center;
+    margin-top: 180px;
+}
+h1 {
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.5rem;
+    font-size: 30px;
+}
+h2 {
+    display: inline-block;
+    color: #0ff;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*Estilização container números*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /*padding: 0.5rem;*/
+    margin: 1.5rem 0 0 0;
+}
+/*Parágrafo, números e tabela*/
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+li {
+    border-radius: 50%;
+    width: 60px;
+    height: 60%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: white;
+    background-image: linear-gradient(45deg, rgb(94, 92, 92), white);
+    border: 3px #b38600 solid;
+}
+p {
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 1rem;  
+    font-weight: bold;
+    font-size: 40px;
+    color: #b38600;
+}
+.ac {
+    font-size: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+table {
+    justify-content: space-between; /*Alinhamento horizontal*/
+    border: 1px #b38600 solid;
+    padding: 0.5rem 2rem 0  2rem;
+    margin-left: 30%;
+    width: 40%;
+    height: 30%;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+.cod {
+    font-size: 0.8rem;
+    color: #b38600;
+}
+.numb {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+td {
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: space-around;
+}
+tbody td {
+    border-bottom: 1px solid #ffffff;
+}
